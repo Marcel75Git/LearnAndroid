@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TemperatureConverter">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="je teste mes ui"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:text="enter une valeur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+          <LinearLayout
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <RadioGroup
+                  android:orientation="vertical"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+                  <RadioButton
+                      android:id="@+id/r1"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="celscius"/>
+
+                  <RadioButton
+                      android:id="@+id/r2"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Fahrehreneit"
+                      /></RadioGroup>
+
+                  <Button
+                      android:id="@+id/btn"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="convertir"
+                      android:layout_marginLeft="80dp"
+                      />
+          </LinearLayout>
+
+          </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/img"
+        android:background="@drawable/lleida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+</LinearLayout>

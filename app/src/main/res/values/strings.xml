@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LearnAndroidJava</string>
+    <string name="text">bonjour l angleterre</string>
+    <string name="intent">Bonjour Intent</string>
+    <string name="title">titre</string>
+    <string name="Message">Message</string>
+    <string name="premier">je teste mon premier bouton</string>
+    <string name="second">je teste mon second bouton</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
